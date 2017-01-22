@@ -17,6 +17,7 @@
     "express": "latest",
     "jfile": "^1.1.12",
     "lodash": "^4.17.4",
-    "node-csv-json": "^0.2.1"
+    "node-csv-json": "^0.2.1",
+    "nodemon": "^1.11.0"
   }
 }
