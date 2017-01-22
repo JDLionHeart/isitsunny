@@ -22,6 +22,7 @@ module.exports.getEpisodes = function(req, res){
             var currentHour = currentTime.getHours();
             var currentMin = currentTime.getMinutes();
             var currentDay = days[currentTime.getDay()];
+            // console.log(currentDay);
 
             //filter out episodes on a different day
             episodes = episodes.filter(function(a){
