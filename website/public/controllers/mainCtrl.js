@@ -14,7 +14,7 @@ app.controller('mainCtrl', function($http, $scope){
                 $scope.done = true;
                 var data = response.data;
                 var currDate = new Date();
-
+                console.log(currDate.getDay());
                 var currentHour = currDate.getHours();
                 var currentMin = currDate.getMinutes();
 
