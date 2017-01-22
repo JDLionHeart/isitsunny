@@ -1,0 +1,22 @@
+{
+  "name": "Sunny",
+  "version": "1.0.0",
+  "engines": {
+    "node": "5.7.1"
+  },
+  "description": "A website that tells you when it's sunny.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Youssef Swailem",
+  "license": "ISC",
+  "dependencies": {
+    "csv2json-stream": "^0.1.2",
+    "express": "latest",
+    "jfile": "^1.1.12",
+    "lodash": "^4.17.4",
+    "node-csv-json": "^0.2.1"
+  }
+}

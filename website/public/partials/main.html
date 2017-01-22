@@ -1,0 +1,32 @@
+<html ng-controller = "mainCtrl">
+
+<container>
+
+    <button type="button" class="btn btn-success btn-lg"
+    style = "height: 170px; width: 500px; margin-top: 80px; margin-left: 30%"
+    ng-click = "getEpisode()">
+    When is it Sunny?
+</button>
+
+<br /><br /><br /><br />
+
+<div ng-show = "done" style = "text-align: center">
+
+    <h4>It is Always Sunny</h4>
+    <h4>Current time: {{currTime}}</h4>
+
+    <br /><br />
+
+    <h4>Closest Episode:</h4>
+    <br />
+    <h2>"{{title}}"</h2>
+    <h3>S{{season}}E{{episode}}</h3>
+    <!-- <h4>{{day}}</h4> -->
+    <h4>{{time}}</h4>
+
+</div>
+
+
+</container>
+
+</html>
