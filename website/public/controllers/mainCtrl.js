@@ -7,7 +7,7 @@ app.controller('mainCtrl', function($http, $scope){
             url: "/getData"
         }).then(function(response){
 
-            console.log(response);
+            // console.log(response);
             $scope.done = true;
             var data = response.data;
 
@@ -16,7 +16,6 @@ app.controller('mainCtrl', function($http, $scope){
             $scope.title = data.Title;
             $scope.season = data.Season;
             $scope.episode = data.Episode;
-            // $scope.day = data.Day;
             $scope.time = data.Time + " on a " + data.Day;
 
 

@@ -1,9 +1,22 @@
 <html ng-controller = "mainCtrl">
 
+<head>
+
+<style>
+
+.Center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+</style>
+</head>
+
 <container>
 
-    <button type="button" class="btn btn-success btn-lg"
-    style = "height: 170px; width: 500px; margin-top: 80px; margin-left: 30%"
+    <button type="button" class="Center btn btn-success btn-lg"
+    style = "height: 170px; width: 500px; margin: 0 auto; margin-top: 30px"
     ng-click = "getEpisode()">
     When is it Sunny?
 </button>
