@@ -4,17 +4,15 @@ app.controller('mainCtrl', function($http, $scope){
 
         $(document).ready(function(){
 
-            $http({
-                method: "GET",
-                url: "/getData"
-            }).then(function(response){
+            var data = {params: {date: new Date()}}
+
+            $http.get('/getData', data).then(function(response){
 
                 // console.log(response);
 
                 $scope.done = true;
                 var data = response.data;
                 var currDate = new Date();
-                console.log(currDate.getDay());
                 var currentHour = currDate.getHours();
                 var currentMin = currDate.getMinutes();
 

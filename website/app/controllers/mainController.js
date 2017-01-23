@@ -1,7 +1,11 @@
 node_cj = require("node-csv-json");
 var _ = require('lodash');
+var moment = require('moment-timezone');
 
 module.exports.getEpisodes = function(req, res){
+
+    // var philiDate = moment().tz("America/Havana").toDate();
+    // console.log(philiDate);
 
     node_cj({
         input:  __dirname + "/Data.csv",
@@ -18,11 +22,10 @@ module.exports.getEpisodes = function(req, res){
 
             var days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
 
-            var currentTime = new Date();
+            var currentTime = new Date(req.query.date);
             var currentHour = currentTime.getHours();
             var currentMin = currentTime.getMinutes();
             var currentDay = days[currentTime.getDay()];
-            // console.log(currentDay);
 
             //filter out episodes on a different day
             episodes = episodes.filter(function(a){
