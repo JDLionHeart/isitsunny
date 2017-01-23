@@ -1,11 +1,12 @@
 node_cj = require("node-csv-json");
 var _ = require('lodash');
-var moment = require('moment-timezone');
 
 module.exports.getEpisodes = function(req, res){
 
-    // var philiDate = moment().tz("America/Havana").toDate();
-    // console.log(philiDate);
+    var philiDate = new Date(req.query.date);
+    var utc = philiDate.getTime() + philiDate.getTimezoneOffset() * 60000;
+    var phili = utc + (3600000 *- 5);
+    var newDate = new Date(phili);
 
     node_cj({
         input:  __dirname + "/Data.csv",

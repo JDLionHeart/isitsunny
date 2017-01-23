@@ -1,10 +1,37 @@
 app.controller('mainCtrl', function($http, $scope){
 
-    $scope.getEpisode = function(){
+    $scope.getEpisode = function(select){
 
         $(document).ready(function(){
 
-            var data = {params: {date: new Date()}}
+            $('#local').click(function(a){
+                $('#local').addClass('disabled');
+                $('#phili').removeClass('disabled');
+            });
+
+            $('#phili').click(function(a){
+                $('#local').removeClass('disabled');
+                $('#phili').addClass('disabled');
+            });
+
+
+            var date;
+
+            if(select == 'local'){
+                //local date/time
+                date = new Date();
+            }
+
+            else{
+                //get current date/time in philadelphia
+                date = new Date();
+                var utc = date.getTime() + date.getTimezoneOffset() * 60000;
+                var phili = utc + (3600000 *- 5);
+                date = new Date(phili);
+            }
+
+
+            var data = {params: {date: date}}
 
             $http.get('/getData', data).then(function(response){
 
@@ -12,7 +39,7 @@ app.controller('mainCtrl', function($http, $scope){
 
                 $scope.done = true;
                 var data = response.data;
-                var currDate = new Date();
+                var currDate = date;
                 var currentHour = currDate.getHours();
                 var currentMin = currDate.getMinutes();
 
