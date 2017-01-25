@@ -27,16 +27,16 @@ Number,Season,Episode,Title,Time,Day,Link
 26,3,9,Sweet Dee's Dating a Retarded Person,22:30,Wednesday,http://itsalwayssunny.wikia.com/wiki/Sweet_Dee%27s_Dating_a_Retarded_Person
 27,3,10,Mac is a Serial Killer,10:00,Thursday,http://itsalwayssunny.wikia.com/wiki/Mac_Is_a_Serial_Killer
 28,3,11,Dennis Looks Like a Registered Sex Offender,15:30,Tuesday,http://itsalwayssunny.wikia.com/wiki/Dennis_Looks_Like_a_Registered_Sex_Offender
-29,3,12,The Gang Gets Whacked (Part 1),14:30,Monday,http://itsalwayssunny.wikia.com/wiki/The_Gang_Gets_Whacked_(Part_1)
-30,3,13,The Gang Gets Whacked (Part 2),14:30,Monday,http://itsalwayssunny.wikia.com/wiki/The_Gang_Gets_Whacked_(Part_2)
+29,3,12,The Gang Gets Whacked,14:30,Monday,http://itsalwayssunny.wikia.com/wiki/The_Gang_Gets_Whacked_(Part_1)
+30,3,13,The Gang Gets Whacked Part 2,,Monday,http://itsalwayssunny.wikia.com/wiki/The_Gang_Gets_Whacked_(Part_2)
 31,3,14,Bums: Making a Mess All Over the City,10:15,Monday,http://itsalwayssunny.wikia.com/wiki/Bums:_Making_a_Mess_All_Over_the_City
 32,3,15,The Gang Dances Their Asses Off,13:15,Saturday,http://itsalwayssunny.wikia.com/wiki/The_Gang_Dances_Their_Asses_Off
 33,4,1,Mac and Dennis: Manhunters,13:30,Wednesday,http://itsalwayssunny.wikia.com/wiki/Mac_and_Dennis:_Manhunters
 34,4,2,The Gang Solves the Gas Crisis,10:30,Monday,http://itsalwayssunny.wikia.com/wiki/The_Gang_Solves_the_Gas_Crisis
 35,4,3,America's Next Top Paddy's Billboard Model Contest,9:30,Monday,http://itsalwayssunny.wikia.com/wiki/America%27s_Next_Top_Paddy%27s_Billboard_Model_Contest
 36,4,4,Mac's Banging the Waitress,14:30,Wednesday,http://itsalwayssunny.wikia.com/wiki/Mac%27s_Banging_the_Waitress
-37,4,5,Mac and Charlie Die (Part 1),10:00,Monday,http://itsalwayssunny.wikia.com/wiki/Mac_and_Charlie_Die_(Part_1)
-38,4,6,Mac and Charlie Die (Part 2),10:00,Monday,http://itsalwayssunny.wikia.com/wiki/Mac_and_Charlie_Die_(Part_2)
+37,4,5,Mac and Charlie Die,10:00,Monday,http://itsalwayssunny.wikia.com/wiki/Mac_and_Charlie_Die_(Part_1)
+38,4,6,Mac and Charlie Die Part 2,,Monday,http://itsalwayssunny.wikia.com/wiki/Mac_and_Charlie_Die_(Part_2)
 39,4,7,Who Pooped the Bed?,13:30,Wednesday,http://itsalwayssunny.wikia.com/wiki/Who_Pooped_the_Bed%3F
 40,4,8,Paddy's Pub: The Worst Bar in Philadelphia,16:42,Tuesday,http://itsalwayssunny.wikia.com/wiki/Paddy%27s_Pub:_The_Worst_Bar_in_Philadelphia
 41,4,9,Dennis Reynolds: An Erotic Life,23:00,Monday,http://itsalwayssunny.wikia.com/wiki/Dennis_Reynolds:_An_Erotic_Life
@@ -81,7 +81,7 @@ Number,Season,Episode,Title,Time,Day,Link
 81,7,10,How Mac Got Fat,12:20,Sunday,http://itsalwayssunny.wikia.com/wiki/How_Mac_Got_Fat
 82,7,11,Thunder Gun Express,14:15,Wednesday,http://itsalwayssunny.wikia.com/wiki/Thunder_Gun_Express
 83,7,12,The High School Reunion,19:10,Friday,http://itsalwayssunny.wikia.com/wiki/The_High_School_Reunion
-84,7,13,The Hight School Reunion Part 2: The Gang's Revenge,19:10,Friday,"http://itsalwayssunny.wikia.com/wiki/The_High_School_Reunion,_Part_2:_The_Gang%27s_Revenge"
+84,7,13,The Hight School Reunion Part 2: The Gang's Revenge,,Friday,"http://itsalwayssunny.wikia.com/wiki/The_High_School_Reunion,_Part_2:_The_Gang%27s_Revenge"
 85,8,1,Pop-Pop: The Final Solution,10:45,Tuesday,http://itsalwayssunny.wikia.com/wiki/Pop-Pop:_The_Final_Solution
 86,8,2,The Gang Recycles Their Trash,11:40,Monday,http://itsalwayssunny.wikia.com/wiki/The_Gang_Recycles_Their_Trash
 87,8,3,The Maureen Ponderosa Wedding Massacre,22:00,Friday,http://itsalwayssunny.wikia.com/wiki/The_Maureen_Ponderosa_Wedding_Massacre
@@ -121,7 +121,7 @@ Number,Season,Episode,Title,Time,Day,Link
 121,11,7,MacPoyle vs. Ponderosa: The Trial of the Century,7:54,Friday,http://itsalwayssunny.wikia.com/wiki/McPoyle_vs._Ponderosa:_The_Trial_of_the_Century
 122,11,8,Charlie Catches a Leprechaun,10:00,Wednesday,http://itsalwayssunny.wikia.com/wiki/Charlie_Catches_a_Leprechaun
 123,11,9,The Gang Goes to Hell,?,,http://itsalwayssunny.wikia.com/wiki/The_Gang_Goes_to_Hell
-124,11,10,The Gang Goes to Hell: Part 2,?,,http://itsalwayssunny.wikia.com/wiki/The_Gang_Goes_to_Hell:_Part_Two
+124,11,10,The Gang Goes to Hell: Part 2,,,http://itsalwayssunny.wikia.com/wiki/The_Gang_Goes_to_Hell:_Part_Two
 125,12,1,The Gang Turns Black,21:15,Friday,http://itsalwayssunny.wikia.com/wiki/The_Gang_Turns_Black
 126,12,2,The Gang Goes to a Water Park,9:58,Saturday,http://itsalwayssunny.wikia.com/wiki/The_Gang_Goes_to_a_Water_Park
 127,12,3,Old Lady House: A Situation Comedy,12:00,Tuesday,http://itsalwayssunny.wikia.com/wiki/Old_Lady_House:_A_Situation_Comedy
