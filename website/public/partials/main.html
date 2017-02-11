@@ -1,0 +1,53 @@
+<html ng-controller = "mainCtrl">
+
+<head>
+
+<style>
+
+.Center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+</style>
+</head>
+
+<container>
+
+    <button id =" button" type="button" class="Center btn btn-success btn-lg"
+    style = "height: 170px; width: 500px; margin: 0 auto; margin-top: 30px"
+    ng-click = "getEpisode('local')">
+    When is it Sunny?
+</button>
+
+<br /><br />
+
+<div id = "results" style = "text-align: center; display: none">
+
+    <div class="btn-group" role="group">
+        <button type="button" id = "local" class="btn btn-default light-blue disabled" ng-click = "getEpisode('local')">Show Me Local Time</button>
+    </div>
+    <div class="btn-group" role="group">
+        <button type="button" id = "phili" class="btn btn-default red" ng-click = "getEpisode('phili')">Show Me Phili Time</button>
+    </div>
+
+    <br /> <br /><br /><br />
+
+    <h4>It is Always Sunny</h4>
+    <h4>Current time: {{currTime}}</h4>
+
+    <br /><br />
+
+    <h4>Closest Episode:</h4>
+    <br />
+    <h2>"{{title}}"</h2>
+    <h3>S{{season}}E{{episode}}</h3>
+    <h4>{{time}}</h4>
+
+</div>
+
+
+</container>
+
+</html>
